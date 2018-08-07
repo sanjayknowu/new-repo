@@ -1,0 +1,15 @@
+.li-bar{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin-right: 5px;
+
+}
+
+.customer-view{
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	padding: 5px; 
+	text-align: center
+}

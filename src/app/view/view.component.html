@@ -1,0 +1,30 @@
+
+
+	<div class="row align-row">
+		<div *ngFor="let cust of customerinfo" >
+			<div class="card bg-light mb-3 ml-4 mr-4 mt-3" style="min-width: 18rem; max-width: 18rem">
+  				<div class="card-header">
+  					<h5>
+  						<span>{{cust.firstname}}</span>
+  						<span>{{cust.lastname}}</span>
+              <div style="display: inline; align-self: right; float: right;">
+             <a href="javascript:void(0)"> <i class="fa fa-edit" (click)="onClick(cust.id)"></i></a>
+            </div>
+  					</h5>
+  				</div>
+  				<div class="card-body">
+  					<div class="row">
+  						<div class="col-md-4">
+ 	  						<img src="../assets/boss.png" >
+						</div>
+					<div class="col-md-8">
+   				 		<p> {{cust.state}} </p>
+    			 		<p> {{cust.country}}</p>
+    			 		<a href="#">view orders </a>
+    			 	</div>
+				</div>
+  			</div>
+		</div>
+	</div>
+</div>
+

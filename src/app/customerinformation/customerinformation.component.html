@@ -1,0 +1,31 @@
+ <div style="margin-left: 20px; margin-top: 30px; "> 
+	<span style="font-size: 26px;"><i class="fa fa-user-o"></i> Customer Information</span>
+</div>
+
+<div class="customer-view">
+	<ul>
+		<a class="li-bar" href="javascript:void(0)">
+			<i class="fa fa-th-large icon-large"></i><span> Customer Information</span>
+		</a>
+		<a class="li-bar" href="javascript:void(0)">
+			<i class="fa fa-bars"></i><span> Customer orders</span>
+		</a>
+		<a class="li-bar" href="javascript:void(0)" (click)="edit(customer.id)">
+			<i class="fa fa-plus"></i> <span> Edit Customer</span>
+		</a>
+	</ul>
+</div>
+<div style="width: 10rem; margin-left: 10rem;">
+<div class="row">
+	<div class="col-md-4">
+		<i class="fa fa-user"></i>
+	</div>
+	<div class="col-md-8 text-left">
+		<p> <span>{{customer.firstname}}
+		{{customer.lastname}}</span> <p>
+				<p><span>{{customer.state}}</span>
+					, <span>{{customer.country}}</span></p>
+    </div>
+			</div>
+</div>
+
