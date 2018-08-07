@@ -64,7 +64,7 @@ public class Customer {
 	 * @param lastname the lastname to set
 	 */
 	public void setLastname(String lastname) {
-		this.lastname = lastname+"123";
+		this.lastname = lastname;
 	}
 
 	/**
