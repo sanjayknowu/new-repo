@@ -30,7 +30,6 @@ deleteCustomerById(id){
 getDataById(id){
 	return this.http.get("http://192.168.10.160:8080/customermanagement-0.0.1/api/customer/"+id);
 }
-
 }
 
 //end 
