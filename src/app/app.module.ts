@@ -84,7 +84,7 @@ const approute: Routes=[
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot(approute),
+    RouterModule.forRoot(approute, {useHash: true}),
     
   ],
 
